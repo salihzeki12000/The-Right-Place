@@ -37,7 +37,7 @@
     </div>
 
     <!-- Begin Cards for Customer Reviews -->
-    <div class="row">
+    <div class="row my-2">
         <div class="col-sm-4">
             <div class="card">
                 <img src="man-holiday-people-face.jpg" alt="" class="card-img-top img-fluid">
