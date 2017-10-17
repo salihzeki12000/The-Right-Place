@@ -40,7 +40,7 @@
     <div class="row">
         <div class="col-sm-4">
             <div class="card">
-                <img src="man-holiday-people-face.jpg" alt="" class="card-img-top custom-card-img img-fluid">
+                <img src="man-holiday-people-face.jpg" alt="" class="card-img-top img-fluid">
                 <div class="card-body">
                     <h4 class="card-title">Frank Ellis</h4>
                     <p class="card-text">The text of the Testimony</p>
@@ -49,7 +49,7 @@
         </div>
         <div class="col-sm-4">
             <div class="card">
-                <img src="pexels-photo-324658.jpg" alt="" class="card-img-top custom-card-img img-fluid">
+                <img src="pexels-photo-324658.jpg" alt="" class="card-img-top img-fluid">
                 <div class="card-body">
                     <h4 class="card-title">Emma Smith</h4>
                     <p class="card-text">The text of the Testimony</p>
@@ -58,7 +58,7 @@
         </div>
         <div class="col-sm-4">
             <div class="card">
-                <img src="pexels-photo-325682.jpg" alt="" class="card-img-top custom-card-img img-fluid">
+                <img src="pexels-photo-325682.jpg" alt="" class="card-img-top img-fluid">
                 <div class="card-body">
                     <h4 class="card-title">Wayne Lee</h4>
                     <p class="card-text">The text of the Testimony</p>
