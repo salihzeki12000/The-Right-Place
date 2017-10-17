@@ -37,7 +37,7 @@
                                 <a class="nav-link" href="#">Booking</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Check Reservation</a>
+                                <a class="nav-link" href="#ReservationLookup" data-toggle="collapse" >Check Reservation</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Amenities</a>
@@ -48,6 +48,15 @@
                         </ul>
                     </div>
                 </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="collapse" id="ReservationLookup">
+                        <div class="card card-body">
+                            Testing 123
+                        </div>
+                    </div>
             </div>
         </div>
         <%-- End of NavBar Row --%>
