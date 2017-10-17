@@ -34,4 +34,15 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Testimony 1</h4>
+                    <p class="card-text">The text of the Testimony</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </asp:Content>
