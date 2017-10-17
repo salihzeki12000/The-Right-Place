@@ -98,7 +98,10 @@
     <Content Include="Home.aspx" />
     <Content Include="img\Club_Lounge_Meeting_Room.jpg" />
     <Content Include="img\HH_meetingroom_970x404_FitToBox_Center.jpg" />
+    <Content Include="img\man1.jpg" />
+    <Content Include="img\man2.jpg" />
     <Content Include="img\UFA4.jpg" />
+    <Content Include="img\woman1.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config" />
     <Content Include="Site.Master" />
