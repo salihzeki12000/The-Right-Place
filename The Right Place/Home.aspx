@@ -4,6 +4,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- Begin Carousel of Images of the Property -->
     <div class="row HomeContent">
         <div class="col-sm-12">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -34,4 +35,37 @@
             </div>
         </div>
     </div>
+
+    <!-- Begin Cards for Customer Reviews -->
+    <div class="row my-2">
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="man-holiday-people-face.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h4 class="card-title">Frank Ellis</h4>
+                    <p class="card-text">The text of the Testimony</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="pexels-photo-324658.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h4 class="card-title">Emma Smith</h4>
+                    <p class="card-text">The text of the Testimony</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="pexels-photo-325682.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h4 class="card-title">Wayne Lee</h4>
+                    <p class="card-text">The text of the Testimony</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 </asp:Content>
