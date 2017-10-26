@@ -3,7 +3,7 @@
     <link href="css/site.css" rel="stylesheet" />
 </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server"> 
     <!-- Begin Carousel of Images of the Property -->
     <div class="row HomeContent">
         <div class="col-sm-12">

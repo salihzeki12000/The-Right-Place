@@ -11,7 +11,16 @@ namespace The_Right_Place
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+        }
+
+        public void PopulateField(int value)
+        {
+            
 
         }
+
+ 
     }
+
 }
