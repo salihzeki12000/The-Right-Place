@@ -31,21 +31,30 @@ namespace The_Right_Place {
         protected global::System.Web.UI.WebControls.TextBox tbDate;
         
         /// <summary>
-        /// rfvDate control.
+        /// tbGuestTotal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDate;
+        protected global::System.Web.UI.WebControls.TextBox tbGuestTotal;
         
         /// <summary>
-        /// dateValidator control.
+        /// rfvGuests control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator dateValidator;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvGuests;
+        
+        /// <summary>
+        /// rvGuests control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rvGuests;
     }
 }

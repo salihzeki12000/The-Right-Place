@@ -9,18 +9,18 @@ namespace The_Right_Place
 {
     public partial class Booking : System.Web.UI.Page
     {
+        string currentDate = DateTime.Now.ToString();
+
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            tbDate.Text = currentDate;
         }
 
-        public void PopulateField(int value)
+        protected void tbDate_TextChanged(object sender, EventArgs e)
         {
-            
 
         }
-
- 
     }
 
 }
