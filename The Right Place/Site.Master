@@ -30,20 +30,20 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="Home.aspx">Home<span class="sr-only">(current)</span></a>
+                            <%--<li class="nav-item active">
+                                <a class="nav-link" href="Home.aspx">Home</a>
+                            </li>--%>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Booking.aspx">Booking</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Booking</a>
+                                <a class="nav-link" href="Reservation.aspx">Reservations</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#ReservationLookup" data-toggle="collapse" >Check Reservation</a>
+                                <a class="nav-link" href="Ammenities.aspx">Amenities</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Amenities</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="Contact.aspx">Contact</a>
                             </li>
                         </ul>
                     </div>
