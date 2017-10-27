@@ -6,4 +6,15 @@
         <h1>Contact</h1>
         <p>This page will display general contact information, location, potentially a map.</p>
     </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <asp:Image ID="imgStaff1" runat="server" />
+        </div>
+        <div class="col-sm-3">
+            <asp:Image ID="imgStaff2" runat="server" />
+        </div>
+        <div class="col-sm-3">
+            <asp:Image ID="imgStaff3" runat="server" />
+        </div>
+    </div>
 </asp:Content>
