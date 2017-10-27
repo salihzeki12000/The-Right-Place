@@ -11,32 +11,5 @@ namespace The_Right_Place {
     
     
     public partial class Contact {
-        
-        /// <summary>
-        /// imgStaff1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgStaff1;
-        
-        /// <summary>
-        /// imgStaff2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgStaff2;
-        
-        /// <summary>
-        /// imgStaff3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgStaff3;
     }
 }
