@@ -33,6 +33,8 @@
                         <asp:RangeValidator ID="rvGuests" runat="server" ErrorMessage="Please enter a valid guest count." CssClass="alert-danger" Type="Integer" ControlToValidate="tbGuestTotal" MaximumValue="50000" MinimumValue="0"></asp:RangeValidator>
                     </div>
 
+                    <asp:Button ID="SubmitSearch" runat="server" CssClass="btn btn-primary" Text="Search" OnClick="SubmitSearch_Click" />
+
                 </form>
             </div>
         </div>

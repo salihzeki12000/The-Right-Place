@@ -21,6 +21,14 @@ namespace The_Right_Place
         {
 
         }
+
+        protected void SubmitSearch_Click(object sender, EventArgs e)
+        {
+            if (IsValid)
+            {
+                Response.Redirect("SearchResults.aspx");
+            }
+        }
     }
 
 }
