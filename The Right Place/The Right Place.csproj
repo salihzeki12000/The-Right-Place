@@ -102,6 +102,7 @@
     <Content Include="Booking.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="css\site.css" />
+    <Content Include="DatabseTest.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="img\Club_Lounge_Meeting_Room.jpg" />
     <Content Include="img\HH_meetingroom_970x404_FitToBox_Center.jpg" />
@@ -156,6 +157,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DatabseTest.aspx.cs">
+      <DependentUpon>DatabseTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DatabseTest.aspx.designer.cs">
+      <DependentUpon>DatabseTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
