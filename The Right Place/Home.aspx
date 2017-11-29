@@ -1,11 +1,30 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="The_Right_Place.Home" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="css/site.css" rel="stylesheet" />
+    
 </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server"> 
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div class="landing">
+        <div class="row verticalBuffer">
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col">
+                <h1 class="header-1" style="text-align:center;">The Right Place For You</h1>
+                <h1 class="header-2" style="text-align:center;">Just A Click Away</h1>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row verticalBuffer">
+        </div>
+    </div>
+    
     <!-- Begin Carousel of Images of the Property -->
-    <div class="row HomeContent">
+    <%--<div class="row HomeContent">
         <div class="col-sm-12">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -34,40 +53,46 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div>--%>
 
     <!-- Begin Cards for Customer Reviews -->
-    <div class="row my-2">
-        <div class="col-sm-4">
-            <div class="card">
-                <img src="img/man1.jpg" alt="" class="card-img-top img-fluid">
-                <div class="card-body">
-                    <h4 class="card-title">Frank Ellis</h4>
-                    <p class="card-text">The text of the Testimony</p>
+    <div class="card-black">
+        <div class="row p-5">
+            <div class="row m-1">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="img/man1.jpg" alt="" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h4 class="card-title">Frank Ellis</h4>
+                            <p class="card-text">The text of the Testimony</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <img src="img/woman1.jpg" alt="" class="card-img-top img-fluid">
-                <div class="card-body">
-                    <h4 class="card-title">Emma Smith</h4>
-                    <p class="card-text">The text of the Testimony</p>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="img/woman1.jpg" alt="" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h4 class="card-title">Emma Smith</h4>
+                            <p class="card-text">The text of the Testimony</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <img src="img/man2.jpg"" alt="" class="card-img-top img-fluid">
-                <div class="card-body">
-                    <h4 class="card-title">Wayne Lee</h4>
-                    <p class="card-text">The text of the Testimony</p>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="img/man2.jpg"" alt="" class="card-img-top img-fluid"/>
+                        <div class="card-body">
+                           <h4 class="card-title">Wayne Lee</h4>
+                           <p class="card-text">The text of the Testimony</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-sm-1"></div>
             </div>
         </div>
     </div>
-
-    
 
     
 </asp:Content>

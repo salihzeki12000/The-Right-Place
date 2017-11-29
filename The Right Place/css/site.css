@@ -3,3 +3,30 @@
     height: 400px;
     max-height: 400px;
 }
+
+.landing {
+    background-image: url('../img/Background-gold.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 600pt;
+}
+
+.verticalBuffer {
+    height: 200pt;
+}
+
+.header-1 {
+    font-weight:300;
+    font-size: 64pt;
+}
+
+.header-2 {
+    font-weight: 100;
+    font-size: 40pt;
+}
+
+.card-black {
+    background-image: url('../img/background.png');
+    background-repeat:no-repeat;
+    background-size:inherit
+}
