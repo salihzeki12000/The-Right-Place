@@ -101,7 +101,7 @@
     <Content Include="Ammenities.aspx" />
     <Content Include="Booking.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="css\site.css" />
+    <Content Include="css\sitestyle.css" />
     <Content Include="Home.aspx" />
     <Content Include="img\background-forrest.png" />
     <Content Include="img\Background-gold.png" />
