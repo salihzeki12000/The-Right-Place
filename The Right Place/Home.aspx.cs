@@ -13,5 +13,10 @@ namespace The_Right_Place
         {
 
         }
+
+        protected void goToSearch_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Booking.aspx");
+        }
     }
 }

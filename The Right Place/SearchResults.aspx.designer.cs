@@ -13,6 +13,15 @@ namespace The_Right_Place {
     public partial class SearchResults {
         
         /// <summary>
+        /// availableRooms control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource availableRooms;
+        
+        /// <summary>
         /// ConfirmReservation control.
         /// </summary>
         /// <remarks>

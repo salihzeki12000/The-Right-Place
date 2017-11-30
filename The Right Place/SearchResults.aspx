@@ -7,15 +7,14 @@
 
     <div class="row">
         <div class="col">
-            <div class="jumbotron">
-                <h1>Search Results</h1>
-                <p>This page will allow users to select the room they want based on their previous search parameters.</p>
-            </div>
+            
+
 
             <form runat="server">
-
+                
+                <asp:SqlDataSource ID="availableRooms" runat="server" ConnectionString="<%$ ConnectionStrings:TheRightPlaceDatabaseConnectionString %>" SelectCommand="select * from Rooms ro left join Reservations re on ro.RID = re.RID"></asp:SqlDataSource>
+                
                 <asp:Button ID="ConfirmReservation" runat="server" CssClass="btn btn-primary" Text="Confirm" OnClick="ConfirmReservation_Click" />
-
             </form>
         </div>
     </div>

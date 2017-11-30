@@ -3,11 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="jumbotron">
-        <h1>Booking Page</h1>
-        <p>This page will allow users to search for a room based on date, and capacity</p>
-    </div>
-
     <main>
         <div class="row">
             <div class="col">
@@ -20,7 +15,8 @@
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Date</label>
                         <div class="col-sm-5">
-                            <asp:TextBox ID="tbDate" runat="server" TextMode="Date" CssClass="form-control" OnTextChanged="tbDate_TextChanged"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="dateRFV" runat="server" ErrorMessage="Please select a date from the dropdown" CssClass="alert alert-danger" ControlToValidate="tbDate"></asp:RequiredFieldValidator>
+                            <asp:TextBox ID="tbDate" runat="server" TextMode="DateTime" CssClass="form-control" OnTextChanged="tbDate_TextChanged"></asp:TextBox>
                         </div>
                     </div>
 
@@ -29,12 +25,14 @@
                         <div class="col-sm-5">
                             <asp:TextBox ID="tbGuestTotal" CssClass="form-control" runat="server" TextMode="Number"></asp:TextBox>
                         </div>
-                        <asp:RequiredFieldValidator ID="rfvGuests" runat="server" ErrorMessage="Please enter the number of guests" ControlToValidate="tbGuestTotal" CssClass="alert-danger"></asp:RequiredFieldValidator>
-                        <asp:RangeValidator ID="rvGuests" runat="server" ErrorMessage="Please enter a valid guest count." CssClass="alert-danger" Type="Integer" ControlToValidate="tbGuestTotal" MaximumValue="50000" MinimumValue="0"></asp:RangeValidator>
                     </div>
-
-                    <asp:Button ID="SubmitSearch" runat="server" CssClass="btn btn-primary" Text="Search" OnClick="SubmitSearch_Click" />
-
+                    <asp:Button ID="SubmitSearch" runat="server" CssClass="btn btn-grey" Text="Search" OnClick="SubmitSearch_Click" />
+                    
+                <asp:SqlDataSource ID="availableRooms" runat="server" ConnectionString="<%$ ConnectionStrings:TheRightPlaceDatabaseConnectionString %>" SelectCommand="select * from Rooms ro left join Reservations re on ro.RID = re.RID">
+                    <SelectParameters>
+                        <asp:ControlParameter ControlID="tbDate" Name=" date" PropertyName="Text" />
+                    </SelectParameters>
+                    </asp:SqlDataSource>
                 </form>
             </div>
         </div>

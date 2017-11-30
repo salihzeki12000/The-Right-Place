@@ -11,7 +11,7 @@ namespace The_Right_Place
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            availableRooms
         }
 
         protected void ConfirmReservation_Click(object sender, EventArgs e)

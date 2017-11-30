@@ -2,6 +2,7 @@
     width: inherit;
     height: 400px;
     max-height: 400px;
+    max-width: 600pt;
 }
 
 .landing {
@@ -9,6 +10,11 @@
     background-size:cover;
     background-repeat:no-repeat;
     height: 600pt;
+}
+
+#endlanding {
+    background-image: url('../img/background-grey.png')!important;
+    height: 400pt!important;
 }
 
 .verticalBuffer {
@@ -30,3 +36,12 @@
     background-repeat:no-repeat;
     background-size:inherit
 }
+
+.btn-yellow {
+    background-color: #EBCB80;
+}
+
+.btn-grey {
+    background-color: #4B4B4B;
+}
+
