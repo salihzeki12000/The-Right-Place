@@ -107,6 +107,11 @@
     <Content Include="img\HH_meetingroom_970x404_FitToBox_Center.jpg" />
     <Content Include="img\man1.jpg" />
     <Content Include="img\man2.jpg" />
+    <Content Include="img\StaffHeadshots\Myers.jpg" />
+    <Content Include="img\StaffHeadshots\Rogue.png" />
+    <Content Include="img\StaffHeadshots\Sikes.jpg" />
+    <Content Include="img\StaffHeadshots\Stokes.jpg" />
+    <Content Include="img\StaffHeadshots\Wilson.jpg" />
     <Content Include="img\UFA4.jpg" />
     <Content Include="img\woman1.jpg" />
     <Content Include="packages.config" />

@@ -13,15 +13,6 @@ namespace The_Right_Place {
     public partial class Contact {
         
         /// <summary>
-        /// imgGRogue control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgGRogue;
-        
-        /// <summary>
         /// lblGRogue control.
         /// </summary>
         /// <remarks>
@@ -29,15 +20,6 @@ namespace The_Right_Place {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblGRogue;
-        
-        /// <summary>
-        /// imgMMyers control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgMMyers;
         
         /// <summary>
         /// lblMMyers control.
@@ -49,15 +31,6 @@ namespace The_Right_Place {
         protected global::System.Web.UI.WebControls.Label lblMMyers;
         
         /// <summary>
-        /// imgPSikes control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgPSikes;
-        
-        /// <summary>
         /// lblPSikes control.
         /// </summary>
         /// <remarks>
@@ -67,15 +40,6 @@ namespace The_Right_Place {
         protected global::System.Web.UI.WebControls.Label lblPSikes;
         
         /// <summary>
-        /// imgFStokes control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgFStokes;
-        
-        /// <summary>
         /// lblFStokes control.
         /// </summary>
         /// <remarks>
@@ -83,15 +47,6 @@ namespace The_Right_Place {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblFStokes;
-        
-        /// <summary>
-        /// imgCWilson control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgCWilson;
         
         /// <summary>
         /// lblCWilson control.

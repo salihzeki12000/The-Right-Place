@@ -10,13 +10,13 @@
 
     <div class="row">
         <div class="col-3">
-            <asp:Image ID="imgGRogue" runat="server" />
+            <img src="img/StaffHeadshots/Rogue.png" />
         </div>
         <div class="col-3">
             <asp:Label ID="lblGRogue" runat="server" Text="Gary Rogue, Meeting Coordinator"></asp:Label>
         </div>
          <div class="col-3">
-             <asp:Image ID="imgMMyers" runat="server" />
+             <img src="img/StaffHeadshots/Myers.jpg" />
         </div>
         <div class="col-3">
             <asp:Label ID="lblMMyers" runat="server" Text="MikaMyers, Small Event Coordinator"></asp:Label>
@@ -25,13 +25,13 @@
 
     <div class="row">
         <div class="col-3">
-            <asp:Image ID="imgPSikes" runat="server" />
+            <img src="img/StaffHeadshots/Sikes.jpg" />
         </div>
         <div class="col-3">
             <asp:Label ID="lblPSikes" runat="server" Text="Paul Sikes, Medium and Large Event Coordinator"></asp:Label>
         </div>
          <div class="col-3">
-             <asp:Image ID="imgFStokes" runat="server" />
+             <img src="img/StaffHeadshots/Stokes.jpg" />
         </div>
         <div class="col-3">
             <asp:Label ID="lblFStokes" runat="server" Text="Felicia Stokes, Wedding Coordinator"></asp:Label>
@@ -40,7 +40,7 @@
 
     <div class="row">
         <div class="col-3">
-            <asp:Image ID="imgCWilson" runat="server" />
+            <img src="img/StaffHeadshots/Wilson.jpg" />
         </div>
         <div class="col-3">
             <asp:Label ID="lblCWilson" runat="server" Text="Cade Wilson, Catering Coordinator"></asp:Label>
