@@ -11,7 +11,7 @@
 
     <div class="row">
         <div class="col-3">
-            <img src="img/StaffHeadshots/Rogue.png"/>
+            <img src="img/StaffHeadshots/Rogue.jpg" />
         </div>
         <div class="col-3">
             <asp:Label ID="lblGRogue" runat="server" Text="Gary Rogue, Meeting Coordinator"></asp:Label>
@@ -48,7 +48,7 @@
 
     <div class="row">
         <div class="col-3">
-            <img src="img/StaffHeadshots/Wilson.jpg" />
+            <img src="img/StaffHeadshots/Wilson.jpg" width="125" height="90" />
         </div>
         <div class="col-3">
             <asp:Label ID="lblCWilson" runat="server" 
