@@ -22,6 +22,15 @@ namespace The_Right_Place {
         protected global::System.Web.UI.WebControls.Label ConfNumber;
         
         /// <summary>
+        /// ConfWarning control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ConfWarning;
+        
+        /// <summary>
         /// FullName control.
         /// </summary>
         /// <remarks>
@@ -94,6 +103,15 @@ namespace The_Right_Place {
         protected global::System.Web.UI.WebControls.Button submit;
         
         /// <summary>
+        /// done control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button done;
+        
+        /// <summary>
         /// updateDataSource control.
         /// </summary>
         /// <remarks>
@@ -101,14 +119,5 @@ namespace The_Right_Place {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource updateDataSource;
-        
-        /// <summary>
-        /// Label1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
     }
 }
