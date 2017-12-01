@@ -42,7 +42,7 @@
                         <div class="row">
                             <div class="col-sm-3"></div>
                             <div class="col">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone else.</small>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,8 @@
                 </div>
 
 
-                <asp:Button ID="submit" CssClass="btn btn-yellow" runat="server" Text="Button" OnClick="submit_Click" />
+                <asp:Button ID="submit" CssClass="btn btn-yellow" runat="server" Text="Register" 
+                    OnClick="submit_Click" />
             
                 <%--<asp:SqlDataSource ID="updateSource" runat="server"></asp:SqlDataSource>--%>
             

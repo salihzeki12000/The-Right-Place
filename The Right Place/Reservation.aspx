@@ -32,6 +32,10 @@
                             ControlToValidate="txbxCID"></asp:RequiredFieldValidator>
                     </div>
               </div>
+
+            <asp:Button ID="btnCheckReserv" class="btn btn-yellow" runat="server" 
+                Text="Check Reservation" OnClick="btnCheckReserv_Click" />
+
         </form>
     </div>
 </asp:Content>

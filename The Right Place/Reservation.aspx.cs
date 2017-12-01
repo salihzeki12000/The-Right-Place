@@ -13,5 +13,13 @@ namespace The_Right_Place
         {
 
         }
+
+        protected void btnCheckReserv_Click(object sender, EventArgs e)
+        {
+            if (IsValid)
+            {
+                //look up reservation on database
+            }
+        }
     }
 }
