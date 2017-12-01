@@ -9,30 +9,70 @@
                 <h1>Find Your Space</h1>
             </div>
         </div>
-        <div class="row mt-3">
-            <div class="col">
+        <div class="row my-3">
+            <div class="col-sm-12 py-3">
                 <form id="form1" runat="server">
                     <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Date</label>
-                        <div class="col-sm-5">
-                            <asp:RequiredFieldValidator ID="dateRFV" runat="server" ErrorMessage="Please select a date from the dropdown" CssClass="alert alert-danger" ControlToValidate="tbDate"></asp:RequiredFieldValidator>
-                            <asp:TextBox ID="tbDate" runat="server" TextMode="DateTime" CssClass="form-control" OnTextChanged="tbDate_TextChanged"></asp:TextBox>
+                        <label class="col-sm-1 col-form-label h-100">Date</label>
+                        <div class="col-sm-5 h-100">
+                            <asp:TextBox ID="tbDate" runat="server" TextMode="Date" CssClass="form-control" OnTextChanged="tbDate_TextChanged"></asp:TextBox>
                         </div>
                     </div>
 
-                    <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Number of Guests</label>
-                        <div class="col-sm-5">
-                            <asp:TextBox ID="tbGuestTotal" CssClass="form-control" runat="server" TextMode="Number"></asp:TextBox>
+                    <div class="row my-3">
+                        <div class="col-sm-1">
+                            <asp:Button ID="submitButton" CssClass="btn btn-grey" runat="server" Text="Search" OnClick="submitButton_Click" />
+                        </div>
+                        <div class="col">
+                            <asp:RequiredFieldValidator ID="dateRFV" runat="server" ErrorMessage="Please select a date from the dropdown" CssClass="alert alert-danger" ControlToValidate="tbDate"></asp:RequiredFieldValidator>
                         </div>
                     </div>
-                    <asp:Button ID="SubmitSearch" runat="server" CssClass="btn btn-grey" Text="Search" OnClick="SubmitSearch_Click" />
-                    
-                <asp:SqlDataSource ID="availableRooms" runat="server" ConnectionString="<%$ ConnectionStrings:TheRightPlaceDatabaseConnectionString %>" SelectCommand="select * from Rooms ro left join Reservations re on ro.RID = re.RID">
-                    <SelectParameters>
-                        <asp:ControlParameter ControlID="tbDate" Name=" date" PropertyName="Text" />
-                    </SelectParameters>
-                    </asp:SqlDataSource>
+
+                    <div class="row">
+                        <div class="col">
+                            <asp:SqlDataSource ID="availableRooms" runat="server" ConnectionString="<%$ ConnectionStrings:TheRightPlaceDatabaseConnectionString %>" SelectCommand="SELECT DISTINCT Rooms.RID, Rooms.capacity, Rooms.RoomType, Rooms.RoomName FROM Rooms LEFT OUTER JOIN Reservations AS r ON Rooms.RID = r.RID WHERE (r.ResDate &lt;&gt; '12/26/2017') OR (r.ResDate IS NULL)"></asp:SqlDataSource>
+                            <asp:DataList ID="roomsList" CssClass="w-100" runat="server" CellPadding="4" DataSourceID="availableRooms" ForeColor="#333333" DataKeyField="RID" Width="952px" OnItemCommand="roomsList_ItemCommand">
+                                <HeaderStyle BackColor="#EBCB80" Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" ForeColor="#4B4B4B" />
+                                <HeaderTemplate>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h1>Room Name</h1>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h1>Room Type</h1>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h1>Capacity</h1>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h1>Selection</h1>
+                                        </div>
+                                    </div>
+                                </HeaderTemplate>
+                                <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" ForeColor="#4B4B4B" />
+                                <ItemTemplate>
+
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <asp:Label ID="RoomNameLabel" runat="server" Text='<%# Eval("RoomName") %>' />
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <asp:Label ID="RoomTypeLabel" runat="server" Text='<%# Eval("RoomType") %>' />
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <asp:Label ID="capacityLabel" runat="server" Text='<%# Eval("capacity") %>' />
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <asp:Button ID="BookButton" runat="server" Text="Book" CommandName="select" />
+                                        </div>
+                                    </div>
+
+                                </ItemTemplate>
+
+                            </asp:DataList>
+                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>

@@ -100,6 +100,7 @@
   <ItemGroup>
     <Content Include="Ammenities.aspx" />
     <Content Include="Booking.aspx" />
+    <Content Include="Confirmation.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="css\sitestyle.css" />
     <Content Include="Home.aspx" />
@@ -123,12 +124,11 @@
     <Content Include="ApplicationInsights.config" />
     <Content Include="Reservation.aspx" />
     <None Include="scripts\jquery-3.1.1.intellisense.js" />
-    <Content Include="ReservationConfirmation.aspx" />
     <Content Include="scripts\jquery-3.1.1.js" />
     <Content Include="scripts\jquery-3.1.1.min.js" />
     <Content Include="scripts\jquery-3.1.1.slim.js" />
     <Content Include="scripts\jquery-3.1.1.slim.min.js" />
-    <Content Include="SearchResults.aspx" />
+    <Content Include="Registration.aspx" />
     <Content Include="Site.Master" />
     <None Include="Properties\PublishProfiles\TheRightPlace - Web Deploy.pubxml" />
     <Content Include="scripts\jquery-3.1.1.slim.min.map" />
@@ -160,6 +160,13 @@
     <Compile Include="Booking.aspx.designer.cs">
       <DependentUpon>Booking.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Confirmation.aspx.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirmation.aspx.designer.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -182,19 +189,12 @@
     <Compile Include="Reservation.aspx.designer.cs">
       <DependentUpon>Reservation.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ReservationConfirmation.aspx.cs">
-      <DependentUpon>ReservationConfirmation.aspx</DependentUpon>
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ReservationConfirmation.aspx.designer.cs">
-      <DependentUpon>ReservationConfirmation.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SearchResults.aspx.cs">
-      <DependentUpon>SearchResults.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SearchResults.aspx.designer.cs">
-      <DependentUpon>SearchResults.aspx</DependentUpon>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
