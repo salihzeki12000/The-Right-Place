@@ -6,7 +6,7 @@
     <main>
         <div class="row">
             <div class="col">
-                <h1>Find Your Space</h1>
+                <h1>Find the <em><b>Right</b></em> Space</h1>
             </div>
         </div>
         <div class="row my-3">
