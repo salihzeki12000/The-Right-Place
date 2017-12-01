@@ -70,7 +70,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Emma Smith</h4>
                             <h5 class="card-subtitle">Small Group Leader</h5>
-                            <p class="card-text">My small group needed a place to meet every week for our bible study. We needed a place that was scalable so we can continue adding members to our group, but wasn't so expensive even if we only had a few show up one week. The Right Place provided exactly that.</p>
+                            <p class="card-text">My small group needed a place to meet every week for our bible study. Our hope was a place that was scalable, so we could continue adding members to our group. We couldn't exceed cost, even if we only had a few show up one week. The Right Place provided exactly that.</p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                         <div class="card-body">
                            <h4 class="card-title">Wayne Lee</h4>
                             <h5 class="card-subtitle">Senior Partner</h5>
-                           <p class="card-text">Every year, I'm tasked with putting together a dental summit, and in a place like Stillwater, having enough rooms for various speakers and big room for everyone to meet in is hard to come by. The Right place took care of that for us.</p>
+                           <p class="card-text">Each year, I'm tasked with putting together a dental summit, and in a place like Stillwater, having enough rooms for many speakers and enough room for everyone to meet is hard to come by. The Right Place took care of that for us.</p>
                         </div>
                     </div>
                 </div>
