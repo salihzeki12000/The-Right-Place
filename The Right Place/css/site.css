@@ -1,0 +1,10 @@
+﻿.c-item {
+    width: inherit;
+    height: 400px;
+    max-height: 400px;
+}
+
+img{
+    width:125px;
+    height:100px;
+}
