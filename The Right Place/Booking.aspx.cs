@@ -21,7 +21,7 @@ namespace The_Right_Place
 
         protected void tbDate_TextChanged(object sender, EventArgs e)
         {
-            Label1.Text = tbDate.Text;
+            lblAvailableRooms.Text = tbDate.Text;
         }
 
         public static DateTime ConvertFromUnixTimestamp(double timestamp)
@@ -42,7 +42,7 @@ namespace The_Right_Place
             if (IsValid)
             {
                 selectedDate = tbDate.Text;
-                Label1.Text = selectedDate;
+                lblAvailableRooms.Text = selectedDate;
                 //int day = Convert.ToInt32(tbDate.Text.Substring(3, 2));
                 //int month = Convert.ToInt32(tbDate.Text.Substring(0, 2));
                 //string tmp = "20" + tbDate.Text.Substring(6, 2);
@@ -69,7 +69,7 @@ namespace The_Right_Place
             roomData.Values["RoomName"] = name;
             roomData.Values["RoomType"] = type;
             roomData.Values["Capacity"] = capacity;
-            roomData.Values["ResDate"] = Label1.Text;
+            roomData.Values["ResDate"] = lblAvailableRooms.Text;
             roomData.Expires = DateTime.Now.AddMinutes(5.0);
 
             Response.Cookies.Add(roomData);

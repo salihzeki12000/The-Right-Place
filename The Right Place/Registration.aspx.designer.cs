@@ -67,6 +67,15 @@ namespace The_Right_Place {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator emailRFV;
         
         /// <summary>
+        /// revEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail;
+        
+        /// <summary>
         /// Phone control.
         /// </summary>
         /// <remarks>
@@ -83,6 +92,15 @@ namespace The_Right_Place {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator phoneRFV;
+        
+        /// <summary>
+        /// revPhoneNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revPhoneNumber;
         
         /// <summary>
         /// submit control.

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Booking.aspx.cs" Inherits="The_Right_Place.Booking" %>
+﻿<%@ Page Title="Booking" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Booking.aspx.cs" Inherits="The_Right_Place.Booking" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -21,7 +21,7 @@
 
                     <div class="row my-3">
                         <div class="col-sm-1">
-                            <asp:Button ID="submitButton" CssClass="btn btn-grey" runat="server" Text="Search" OnClick="submitButton_Click" />
+                            <asp:Button ID="submitButton" CssClass="btn btn-yellow" runat="server" Text="Search" OnClick="submitButton_Click" />
                         </div>
                         <div class="col">
                             <asp:RequiredFieldValidator ID="dateRFV" runat="server" ErrorMessage="Please select a date from the dropdown" CssClass="alert alert-danger" ControlToValidate="tbDate"></asp:RequiredFieldValidator>
@@ -70,7 +70,7 @@
                                 </ItemTemplate>
 
                             </asp:DataList>
-                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                            <asp:Label ID="lblAvailableRooms" runat="server" Text="Listed below are the rooms available for your selected date."></asp:Label>
                         </div>
                     </div>
                 </form>

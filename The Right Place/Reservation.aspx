@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Reservation.aspx.cs" Inherits="The_Right_Place.Reservation" %>
+﻿<%@ Page Title="Check Reservation" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Reservation.aspx.cs" Inherits="The_Right_Place.Reservation" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -32,6 +32,10 @@
                             ControlToValidate="txbxCID"></asp:RequiredFieldValidator>
                     </div>
               </div>
+            <div class=" form-group row">
+                 <asp:Label ID="lblForgotConfirm" runat="server" Text="If you do not have your confirmation number, you can contact the main office at 405-372-1235"></asp:Label>
+            </div>
+           
 
             <asp:Button ID="btnCheckReserv" class="btn btn-yellow" runat="server" 
                 Text="Check Reservation" OnClick="btnCheckReserv_Click" />

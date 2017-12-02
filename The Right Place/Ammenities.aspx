@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Ammenities.aspx.cs" Inherits="The_Right_Place.Ammenities" %>
+﻿<%@ Page Title="Amenities" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Ammenities.aspx.cs" Inherits="The_Right_Place.Ammenities" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -37,7 +37,7 @@
               <dt>Pioneer Auditorium, capacity: 1000</dt>
                 <dd>surround sound speakers, reclining chairs, handicap seating</dd>
               <dt>Jefferson Ballroom, capacity: 3000</dt>
-                <dd>20,000 sq ft</dd>
+                <dd>20,000 sq ft, wood flooring</dd>
               <dt>Cowboy Courtyard, capacity: 500</dt>
                 <dd>adjacent to Jefferson Ballroom, perfect for outdoor events</dd>
               <dt>Other available technologies: </dt>

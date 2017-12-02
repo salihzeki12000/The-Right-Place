@@ -60,7 +60,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Frank Ellis</h4>
                             <h5 class="card-subtitle">Business Owner</h5>
-                            <p class="card-text">I take everyone in my office to The Right Place once a month for team building. They have everything ready for us before we get there, and all the equipment to have employees sign in, watch powerpoints, and listen to speakers is already there.</p>
+                            <p class="card-text">I take everyone in my office to The Right Place once a month for team building. They have everything ready for us before we get there. All the necessities to have employees sign in, watch powerpoints, and listen to speakers are ready when we arrive.</p>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                         <form runat="server">
-                            <asp:Button ID="goToSearch" CssClass="btn btn-outline-warning btn-block" runat="server" Text="Button" OnClick="goToSearch_Click" />
+                            <asp:Button ID="goToSearch" CssClass="btn btn-outline-warning btn-block" runat="server" Text="Book Now" OnClick="goToSearch_Click" />
                         </form>
                     </div>
                     <div class="col-sm-2"></div>
