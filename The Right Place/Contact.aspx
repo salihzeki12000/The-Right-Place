@@ -1,18 +1,21 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="The_Right_Place.Contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="css/site.css" rel="stylesheet" />
+    <!--style sheet in master page-->
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+<!--main section-->
     <div class="jumbotron">
         <h1>Contact</h1>
         <p>Find the <em><b>Right</b></em> coordinator for your event</p>
     </div>
-
+<!--first row-->
     <div class="form-group row">
         <div class="col-2">
             <img src="img/StaffHeadshots/Rogue.jpg" alt="Gary Rogue headshot"/>
         </div>
+        <!--emails are not linked-->
         <div class="col-3">
             <asp:Label ID="lblGRogue" runat="server" Text="Gary Rogue, Meeting Coordinator"></asp:Label>
             <a href="mailto:meetings@therightplace.com">meetings@therightplace.com</a>
@@ -26,7 +29,7 @@
             <a href="mailto:smallevents@therightplace.com">smallevents@therightplace.com</a>
         </div>
     </div>
-
+<!--second row-->
     <div class="form-group row">
         <div class="col-2">
             <img src="img/StaffHeadshots/Sikes.jpg" alt="Paul Sikes headshot" />
@@ -45,8 +48,9 @@
             <a href="mailto:weddings@therightplace.com">weddings@therightplace.com</a>
         </div>
     </div>
-
+<!--third row-->
     <div class="form-group row">
+        <!--custom width and height-->
         <div class="col-2">
             <img src="img/StaffHeadshots/Wilson.jpg" width="125" height="90" alt="Cade Wilson headshot"/>
         </div>
