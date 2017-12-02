@@ -70,7 +70,7 @@
                                 </ItemTemplate>
 
                             </asp:DataList>
-                            <asp:Label ID="lblAvailableRooms" runat="server" Text="Listed below are the rooms available for your selected date."></asp:Label>
+                            <asp:Label ID="lblAvailableRooms" runat="server" Text="Listed below are the rooms available for your selected date. A %15 discount is available for multi-day or multi-room reservations."></asp:Label>
                         </div>
                     </div>
                 </form>

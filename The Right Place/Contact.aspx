@@ -9,15 +9,15 @@
         <p>Find the <em><b>Right</b></em> coordinator for your event</p>
     </div>
 
-    <div class="row">
-        <div class="col-3">
+    <div class="form-group row">
+        <div class="col-2">
             <img src="img/StaffHeadshots/Rogue.jpg" alt="Gary Rogue headshot"/>
         </div>
         <div class="col-3">
             <asp:Label ID="lblGRogue" runat="server" Text="Gary Rogue, Meeting Coordinator"></asp:Label>
             <a href="mailto:meetings@therightplace.com">meetings@therightplace.com</a>
         </div>
-         <div class="col-3">
+         <div class="col-2">
              <img src="img/StaffHeadshots/Myers.jpg" alt="Mike Meyers headshot" />
         </div>
         <div class="col-3">
@@ -27,8 +27,8 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-3">
+    <div class="form-group row">
+        <div class="col-2">
             <img src="img/StaffHeadshots/Sikes.jpg" alt="Paul Sikes headshot" />
         </div>
         <div class="col-3">
@@ -36,7 +36,7 @@
                 Text="Paul Sikes, Medium and Large Event Coordinator"></asp:Label>
             <a href="mailto:mlevents@therightplace.com">mlevents@therightplace.com</a>
         </div>
-         <div class="col-3">
+         <div class="col-2">
              <img src="img/StaffHeadshots/Stokes.jpg" alt="Felicia Stokes headshot"/>
         </div>
         <div class="col-3">
@@ -46,14 +46,20 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-3">
+    <div class="form-group row">
+        <div class="col-2">
             <img src="img/StaffHeadshots/Wilson.jpg" width="125" height="90" alt="Cade Wilson headshot"/>
         </div>
         <div class="col-3">
             <asp:Label ID="lblCWilson" runat="server" 
                 Text="Cade Wilson, Catering Coordinator"></asp:Label>
             <a href="mailto:catering@therightplace.com">catering@therightplace.com</a>
+        </div>
+        <div class="col-3">
+            <dl>
+                <dt>Catering</dt>
+                    <dd class="float-right">Catering services are available on site. For a current menu, email Caleb Wilson.</dd>
+            </dl>
         </div>
     </div>
 
