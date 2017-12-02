@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -18,6 +19,7 @@ namespace The_Right_Place
         static string email;
         static string phone;
         static string date;
+        static string price;
 
         bool dataIsSet = false;
 
@@ -51,8 +53,36 @@ namespace The_Right_Place
                 Capacity.Text = cap;
                 ResDate.Text = date;
 
-                dataIsSet = true;
-
+                
+                switch (RoomType.Text)
+                {
+                    case "Board Room":
+                        price = "100";
+                        priceLabel.Text = "$" + price + " / Day";
+                        return;
+                    case "Presentation Room":
+                        priceLabel.Text = "$" + price + " / Day";
+                        price = "250";
+                        return;
+                    case "Banquet Hall":
+                        price = "500";
+                        priceLabel.Text = "$" + price + " / Day";
+                        return;
+                    case "Auditorium":
+                        price = "1,000";
+                        priceLabel.Text = "$" + price + " / Day";
+                        return;
+                    case "Ballroom":
+                        price = "3,000";
+                        priceLabel.Text = "$" + price + " / Day";
+                        return;
+                    case "Court Yard":
+                        price = "2,500";
+                        priceLabel.Text = "$" + price + " / Day";
+                        return;
+                }
+                
+               
             }
         }
 
@@ -93,14 +123,21 @@ namespace The_Right_Place
 
             ConfNumber.Text = "Confirmation Number: " + conf;
 
+            string tmpPrice = price;
+            if (price.Contains(","))
+            {
+                tmpPrice = price.Replace(",", "");
+            }
+
             string i1 = "insert into Reservations values (";
             string i2 = "'" + conf + "', ";
             string i3 = UID + ", ";
             string i4 = RID + ", ";
-            string i5 = "'" + date.ToString() + "'";
-            string i6 = ");";
+            string i5 = "'" + date.ToString() + "', ";
+            string i6 = tmpPrice;
+            string i7 = ");";
 
-            string insertCMD = i1 + i2 + i3 + i4 + i5 + i6;
+            string insertCMD = i1 + i2 + i3 + i4 + i5 + i6 + i7;
             updateDataSource.InsertCommand = insertCMD;
             updateDataSource.Insert();
 

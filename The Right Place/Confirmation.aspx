@@ -83,6 +83,13 @@
                     </div>
                 </div>
 
+                <div class="form-group row">
+                    <label for="price" class="col-sm-3">Price</label>
+                    <div class="col">
+                        <asp:Label ID="priceLabel" runat="server" Text="Label"></asp:Label>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-sm-2">
                         <asp:Button ID="submit" CssClass="btn btn-yellow" runat="server" Text="Confirm Reservation" OnClick="submit_Click" />
