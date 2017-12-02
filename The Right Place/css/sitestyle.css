@@ -45,3 +45,13 @@
     background-color: #4B4B4B;
 }
 
+img{
+    width:150px;
+    height:100px;
+}
+.jumbotron{
+    color:darkslategrey;
+}
+dt{
+    color:burlywood;
+}

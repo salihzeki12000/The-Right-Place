@@ -60,7 +60,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Frank Ellis</h4>
                             <h5 class="card-subtitle">Business Owner</h5>
-                            <p class="card-text">I take everyone in my office to The Right Place once a month for team building. They have everything ready for us before we get there, and all the equipment to have employees sign in, watch powerpoints, and listen to speakers is already there.</p>
+                            <p class="card-text">I take everyone in my office to The Right Place once a month for team building. They have everything ready for us before we get there. All the necessities to have employees sign in, watch powerpoints, and listen to speakers are ready when we arrive.</p>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Emma Smith</h4>
                             <h5 class="card-subtitle">Small Group Leader</h5>
-                            <p class="card-text">My small group needed a place to meet every week for our bible study. We needed a place that was scalable so we can continue adding members to our group, but wasn't so expensive even if we only had a few show up one week. The Right Place provided exactly that.</p>
+                            <p class="card-text">My small group needed a place to meet every week for our bible study. Our hope was a place that was scalable, so we could continue adding members to our group. We couldn't exceed cost, even if we only had a few show up one week. The Right Place provided exactly that.</p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                         <div class="card-body">
                            <h4 class="card-title">Wayne Lee</h4>
                             <h5 class="card-subtitle">Senior Partner</h5>
-                           <p class="card-text">Every year, I'm tasked with putting together a dental summit, and in a place like Stillwater, having enough rooms for various speakers and big room for everyone to meet in is hard to come by. The Right place took care of that for us.</p>
+                           <p class="card-text">Each year, I'm tasked with putting together a dental summit, and in a place like Stillwater, having enough rooms for many speakers and enough room for everyone to meet is hard to come by. The Right Place took care of that for us.</p>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                         <form runat="server">
-                            <asp:Button ID="goToSearch" CssClass="btn btn-outline-warning btn-block" runat="server" Text="Button" OnClick="goToSearch_Click" />
+                            <asp:Button ID="goToSearch" CssClass="btn btn-outline-warning btn-block" runat="server" Text="Book Now" OnClick="goToSearch_Click" />
                         </form>
                     </div>
                     <div class="col-sm-2"></div>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="True" CodeBehind="Confirmation.aspx.cs" Inherits="The_Right_Place.Confirmation" %>
+﻿<%@ Page Title="Confirmation" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="True" CodeBehind="Confirmation.aspx.cs" Inherits="The_Right_Place.Confirmation" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -25,7 +25,7 @@
                         <div class="row">
                             <div class="col-sm-8">
                                 <h5>
-                                    <asp:Label ID="ConfWarning" runat="server" Text="Please keep track of your Confirmation Number. You will need this in order to lookup your reservation."></asp:Label>
+                                    <asp:Label ID="ConfWarning" runat="server" Text="Please keep track of your Confirmation Number. You will need this to look up your reservation later."></asp:Label>
                                 </h5>
                             </div>
                         </div>
