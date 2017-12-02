@@ -40,13 +40,6 @@
                                     runat="server" ErrorMessage="Please enter your Email Address" 
                                     ControlToValidate="Email" Display="Dynamic"></asp:RequiredFieldValidator>
                             </div>
-                            <div class="col">
-                                <asp:RegularExpressionValidator ID="revEmail" 
-                                    runat="server" CssClass="alert alert-danger" 
-                                    ErrorMessage="Please enter a valid email address" class="float-left"
-                                    ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" 
-                                    ControlToValidate="Email" Display="Dynamic"></asp:RegularExpressionValidator>
-                            </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-3"></div>
@@ -65,11 +58,6 @@
                     <div class="col">
                         <asp:RequiredFieldValidator CssClass="alert alert-danger my-2" ID="phoneRFV" runat="server" ErrorMessage="Please enter your Phone Number" ControlToValidate="Phone"></asp:RequiredFieldValidator>
                     </div>
-                <div>
-                    <asp:RegularExpressionValidator ID="revPhoneNumber" 
-                        ValidationExpression="^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$" 
-                        runat="server" class="alert alert-danger" ErrorMessage="Please enter valid phone number ex: 555-555-5555" ControlToValidate="Phone"></asp:RegularExpressionValidator>
-                </div>
                 </div>
 
 

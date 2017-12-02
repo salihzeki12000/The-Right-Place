@@ -6,12 +6,20 @@
     <main>
         <div class="row">
             <div class="col">
-                <h1>Find the <em><b>Right</b></em> Space</h1>
+                <div class="jumbotron">
+                    <h1>Find the <em><b>Right</b></em> Space</h1>
+                </div>
             </div>
         </div>
-        <div class="row my-3">
+        <div class="row my-3 mx-3 card">
             <div class="col-sm-12 py-3">
                 <form id="form1" runat="server">
+                    <div class="row">
+                        <div class="col my-2">
+                            <h4>Room Search</h4>
+                        </div>
+                    </div>
+
                     <div class="form-group row">
                         <label class="col-sm-1 col-form-label h-100">Date</label>
                         <div class="col-sm-5 h-100">
@@ -63,12 +71,10 @@
                                             <asp:Label ID="capacityLabel" runat="server" Text='<%# Eval("capacity") %>' />
                                         </div>
                                         <div class="col-sm-3">
-                                            <asp:Button ID="BookButton" runat="server" Text="Book" CommandName="select" />
+                                            <asp:Button ID="BookButton" CssClass="btn btn-yellow" runat="server" Text="Book" CommandName="select" />
                                         </div>
                                     </div>
-
                                 </ItemTemplate>
-
                             </asp:DataList>
                             <asp:Label ID="lblAvailableRooms" runat="server" Text="Listed below are the rooms available for your selected date. A %15 discount is available for multi-day or multi-room reservations."></asp:Label>
                         </div>

@@ -164,7 +164,7 @@ namespace The_Right_Place
 
         protected void done_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Home.aspx");
+            Response.Redirect("Cart.aspx");
         }
     }
 }

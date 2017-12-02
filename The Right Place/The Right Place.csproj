@@ -100,6 +100,7 @@
   <ItemGroup>
     <Content Include="Ammenities.aspx" />
     <Content Include="Booking.aspx" />
+    <Content Include="Cart.aspx" />
     <Content Include="Confirmation.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="css\sitestyle.css" />
@@ -161,6 +162,13 @@
     </Compile>
     <Compile Include="Booking.aspx.designer.cs">
       <DependentUpon>Booking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Confirmation.aspx.cs">
       <DependentUpon>Confirmation.aspx</DependentUpon>

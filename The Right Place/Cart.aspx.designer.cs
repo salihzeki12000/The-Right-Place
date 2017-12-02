@@ -10,87 +10,69 @@
 namespace The_Right_Place {
     
     
-    public partial class SearchResults {
+    public partial class Cart {
         
         /// <summary>
-        /// FirstName control.
+        /// HeaderLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstName;
+        protected global::System.Web.UI.WebControls.Label HeaderLabel;
         
         /// <summary>
-        /// firstRFV control.
+        /// nameLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator firstRFV;
+        protected global::System.Web.UI.WebControls.Label nameLabel;
         
         /// <summary>
-        /// LastName control.
+        /// TotalPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LastName;
+        protected global::System.Web.UI.WebControls.Label TotalPrice;
         
         /// <summary>
-        /// lastRFV control.
+        /// Checkout control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator lastRFV;
+        protected global::System.Web.UI.WebControls.Button Checkout;
         
         /// <summary>
-        /// Email control.
+        /// CartDataList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Email;
+        protected global::System.Web.UI.WebControls.DataList CartDataList;
         
         /// <summary>
-        /// emailRFV control.
+        /// CartDataSource control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator emailRFV;
+        protected global::System.Web.UI.WebControls.SqlDataSource CartDataSource;
         
         /// <summary>
-        /// Phone control.
+        /// TotalPriceGrabber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Phone;
-        
-        /// <summary>
-        /// phoneRFV control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator phoneRFV;
-        
-        /// <summary>
-        /// submit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submit;
+        protected global::System.Web.UI.WebControls.SqlDataSource TotalPriceGrabber;
     }
 }

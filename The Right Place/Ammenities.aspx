@@ -6,6 +6,8 @@
          <h1>Amenities</h1>
          <p>The <em><b>Right</b></em> luxuries for your event</p>
     </div>
+
+    <%--This Table Lists all of the ammenities available--%>
     <div class="row">
         <div class="col-5">
             <dl>

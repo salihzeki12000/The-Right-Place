@@ -90,7 +90,8 @@
 
     <!-- Begin Carousel of Images of the Property -->
     <div class="row HomeContent">
-        <div class="col-sm-12">
+        <div class="col"></div>
+        <div class="col-sm-7">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -118,6 +119,7 @@
                 </a>
             </div>
         </div>
+        <div class="col"></div>
     </div>
 
     <div class="my-4" style="background-image: url('../img/background-grey.png'); height:500pt; background-repeat: no-repeat; background-size:cover;">

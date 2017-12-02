@@ -2,7 +2,6 @@
     width: inherit;
     height: 400px;
     max-height: 400px;
-    max-width: 600pt;
 }
 
 .landing {
@@ -45,13 +44,20 @@
     background-color: #4B4B4B;
 }
 
-img{
-    width:150px;
-    height:100px;
-}
 .jumbotron{
     color:darkslategrey;
 }
 dt{
     color:burlywood;
+}
+
+.item img {
+max-height: 100%;  
+max-width: 100%; 
+position: absolute;  
+top: 0;  
+bottom: 0;  
+left: 0;  
+right: 0;  
+margin: auto;
 }

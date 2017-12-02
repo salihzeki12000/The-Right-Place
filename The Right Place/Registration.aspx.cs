@@ -9,10 +9,6 @@ namespace The_Right_Place
 {
     public partial class SearchResults : System.Web.UI.Page
     {
-        string RoomName;
-        string RoomType;
-        string Capacity;
-
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -22,15 +18,11 @@ namespace The_Right_Place
         {
             if (IsValid)
             {
+                // Get data and set cookie for user
                 string first = FirstName.Text;
                 string last = LastName.Text;
                 string email = Email.Text;
                 string phone = Phone.Text;
-
-                //Session["first"] = first;
-                //Session["last"] = last;
-                //Session["email"] = email;
-                //Session["phone"] = phone;
 
                 HttpCookie userData = new HttpCookie("UserData");
                 userData.Values["FirstName"] = first;

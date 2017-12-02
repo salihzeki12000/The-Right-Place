@@ -11,7 +11,6 @@ namespace The_Right_Place
     {
         string currentDate = DateTime.Now.ToString();
         string selectedDate;
-        int numberOfGuests;
         HttpCookie roomData = new HttpCookie("RoomData");
 
         protected void Page_Load(object sender, EventArgs e)
@@ -41,17 +40,15 @@ namespace The_Right_Place
         {
             if (IsValid)
             {
+    
+                //Begin search for available days
                 selectedDate = tbDate.Text;
                 lblAvailableRooms.Text = selectedDate;
-                //int day = Convert.ToInt32(tbDate.Text.Substring(3, 2));
-                //int month = Convert.ToInt32(tbDate.Text.Substring(0, 2));
-                //string tmp = "20" + tbDate.Text.Substring(6, 2);
-                //int year = Convert.ToInt32(tmp);
-                //date = year + "-" + month + "-" + day;
-                
+               
                 string command = "SELECT DISTINCT Rooms.RID, Rooms.capacity, Rooms.RoomType, Rooms.RoomName FROM Rooms LEFT JOIN Reservations AS r ON Rooms.RID = r.RID WHERE (r.ResDate <> '" + selectedDate + "') OR (r.ResDate IS NULL)";
                 availableRooms.SelectCommand = command;
 
+                // Bind found data to source
                 roomsList.DataSourceID = "";
                 roomsList.DataSource = availableRooms;
                 roomsList.DataBind();
@@ -61,6 +58,7 @@ namespace The_Right_Place
 
         protected void roomsList_ItemCommand(object source, DataListCommandEventArgs e)
         {
+            // Get data to set in cookie
             roomsList.SelectedIndex = e.Item.ItemIndex;
             string name = ((Label)roomsList.SelectedItem.FindControl("RoomNameLabel")).Text;
             string type = ((Label)roomsList.SelectedItem.FindControl("RoomTypeLabel")).Text;
@@ -73,12 +71,7 @@ namespace The_Right_Place
             roomData.Expires = DateTime.Now.AddMinutes(5.0);
 
             Response.Cookies.Add(roomData);
-
-            //Session["RoomName"] = name;
-            //Session["RoomType"] = type;
-            //Session["Capacity"] = capacity;
-            //Session["ResDate"] = selectedDate;
-
+            
             Response.Redirect("Registration.aspx");
 
         }

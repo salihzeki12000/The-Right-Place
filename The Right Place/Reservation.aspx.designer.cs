@@ -13,57 +13,30 @@ namespace The_Right_Place {
     public partial class Reservation {
         
         /// <summary>
-        /// txbxConfirmNo control.
+        /// tbConfirmationNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txbxConfirmNo;
+        protected global::System.Web.UI.WebControls.TextBox tbConfirmationNumber;
         
         /// <summary>
-        /// rfvConfirmNo control.
+        /// searchForReservation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvConfirmNo;
+        protected global::System.Web.UI.WebControls.Button searchForReservation;
         
         /// <summary>
-        /// txbxCID control.
+        /// getNameSource control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txbxCID;
-        
-        /// <summary>
-        /// rfvCID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCID;
-        
-        /// <summary>
-        /// lblForgotConfirm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblForgotConfirm;
-        
-        /// <summary>
-        /// btnCheckReserv control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCheckReserv;
+        protected global::System.Web.UI.WebControls.SqlDataSource getNameSource;
     }
 }
