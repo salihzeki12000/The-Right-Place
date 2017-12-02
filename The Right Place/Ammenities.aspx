@@ -1,11 +1,14 @@
 ﻿<%@ Page Title="Amenities" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Ammenities.aspx.cs" Inherits="The_Right_Place.Ammenities" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!--style sheet in master-->
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">
          <h1>Amenities</h1>
          <p>The <em><b>Right</b></em> luxuries for your event</p>
     </div>
+    <!--descriptive list for amenities-->
     <div class="row">
         <div class="col-5">
             <dl>
@@ -29,6 +32,7 @@
                 <dd>sliding dividers to separate into smaller rooms</dd>
             </dl>
         </div>
+<!--begin second column-->
         <div class="col-5">
             <dl>
 
@@ -42,9 +46,11 @@
                 <dd>adjacent to Jefferson Ballroom, perfect for outdoor events</dd>
              <dt>Multi-purpose rooms, capacity: varies, $25/day</dt>
                  <dd>available to Bride/Groom and attendants, costume change rooms for plays, musicals, and many other purposes</dd>
-              <dt>Other available technologies: </dt>
+              <!--put free parking here-->
+                <dt>Other available technologies: </dt>
                 <dd>free parking for all guests, iPads, lounge style seating, television, projection, and more of the latest technology for presenters, guests, and participants</dd>
-              <dt>Non-Profits</dt>
+              <!--put non profit here-->
+                <dt>Non-Profits</dt>
                 <dd>Our Coordinators have special pricing for non-profit organizations.
                      Find the <em><b>Right</b></em> coordinator <a href="Contact.aspx">here.</a></dd>
             </dl>

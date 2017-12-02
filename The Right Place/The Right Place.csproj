@@ -116,6 +116,9 @@
     <Content Include="img\form-bg-white.png" />
     <Content Include="img\HH_meetingroom_970x404_FitToBox_Center.jpg" />
     <Content Include="img\jumbotronimages\amenities.jpg" />
+    <Content Include="img\jumbotronimages\burger.jpg" />
+    <Content Include="img\jumbotronimages\businessconference.jpg" />
+    <Content Include="img\jumbotronimages\cocktails.jpg" />
     <Content Include="img\jumbotronimages\contact.jpg" />
     <Content Include="img\man1.jpg" />
     <Content Include="img\man2.jpg" />

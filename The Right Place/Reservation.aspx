@@ -6,7 +6,7 @@
         <h1>Reservations</h1>
         <p>Enter your confirmation number and Customer ID below to review your reservation</p>       
     </div>
-
+<!--begin main section-->
     <div>
         <form runat="server">
             <div class="form-group row">
@@ -20,7 +20,7 @@
                             ControlToValidate="txbxConfirmNo"></asp:RequiredFieldValidator>
                     </div>
               </div>
-
+<!--second row-->
               <div class="form-group row">
                  <label class="col-sm-3">Customer ID</label>
                     <div class="col">
@@ -35,7 +35,7 @@
             <div class=" form-group row">
                  <asp:Label ID="lblForgotConfirm" runat="server" Text="If you do not have your confirmation number, you can contact the main office at 405-372-1235"></asp:Label>
             </div>
-           
+<!--pulls reservation from database-->          
 
             <asp:Button ID="btnCheckReserv" class="btn btn-yellow" runat="server" 
                 Text="Check Reservation" OnClick="btnCheckReserv_Click" />
